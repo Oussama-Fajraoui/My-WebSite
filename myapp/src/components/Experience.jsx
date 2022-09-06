@@ -7,6 +7,7 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png"
 
 const Experience = () => {
 
@@ -61,9 +62,9 @@ const Experience = () => {
         },
         {
             id: 9,
-            src: github,
-            title: "GitHub",
-            style: "shadow-gray-400",
+            src: node,
+            title: "Node.js",
+            style: "shadow-green-400",
           },
       ];
 
@@ -73,11 +74,11 @@ const Experience = () => {
           className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
         >
           <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-            <div>
+            <div className="mt-20">
               <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
                 Experience
               </p>
-              <p className="py-6">These are the technologies I've worked with</p>
+              <p className="py-6">These are some of the technologies I've worked with</p>
             </div>
     
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
