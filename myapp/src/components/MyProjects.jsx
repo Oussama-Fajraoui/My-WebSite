@@ -1,36 +1,36 @@
 import React from 'react';
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import municipality from "../assets/portfolio/municipality.jpg";
+import favmovie from "../assets/portfolio/fav movie.jpg";
+import DMS from "../assets/portfolio/DMS.jpg";
+import symphony from "../assets/portfolio/symphony.jpg";
+import Movie from "../assets/portfolio/Movie.jpg";
+import gamer from "../assets/portfolio/gamer.jpg";
 
 const MyProjects = () => {
     const myprojects = [
         {
           id: 1,
-          src: arrayDestruct,
+          src: municipality,
         },
         {
           id: 2,
-          src: reactParallax,
+          src: symphony,
         },
         {
           id: 3,
-          src: navbar,
+          src: DMS,
         },
         {
           id: 4,
-          src: reactSmooth,
+          src: Movie,
         },
         {
           id: 5,
-          src: installNode,
+          src: favmovie,
         },
         {
           id: 6,
-          src: reactWeather,
+          src: gamer,
         },
       ];
     
