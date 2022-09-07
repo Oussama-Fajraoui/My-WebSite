@@ -1,33 +1,33 @@
 import React from 'react';
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
+import reactnative from "../assets/reactnative.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png"
+import mongodb from "../assets/mongodb.png"
+import vue from "../assets/vue.png"
+import postgresql from "../assets/postgresql.png"
 
 const Experience = () => {
 
     const techs = [
         {
           id: 1,
-          src: html,
-          title: "HTML",
-          style: "shadow-orange-500",
+          src: mongodb,
+          title: "MongoDB",
+          style: "shadow-green-800",
         },
         {
           id: 2,
-          src: css,
-          title: "CSS",
+          src: postgresql,
+          title: "PostgreSQL",
           style: "shadow-blue-500",
         },
         {
           id: 3,
-          src: javascript,
-          title: "JavaScript",
+          src: reactnative,
+          title: "ReactNative - FireBase",
           style: "shadow-yellow-500",
         },
         {
@@ -50,8 +50,8 @@ const Experience = () => {
         },
         {
           id: 7,
-          src: graphql,
-          title: "GraphQL",
+          src: vue,
+          title: "Vue.js",
           style: "shadow-pink-400",
         },
         {
