@@ -8,16 +8,13 @@ const Home = () => {
     return (
         <div
           name="home"
-          className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+          className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 "
         >
           <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div >
               <p className='text-white'>Hi, my name is :</p>
               <h2 className="text-4xl sm:text-5xl font-bold text-white">
                 Oussama Fajraoui
-              </h2>
-              <h2 className="text-4xl sm:text-4xl font-bold text-white">
-                I build things for the web
               </h2>
               <p className="text-gray-500 py-4 max-w-md">
               I’m a Full Stack JavaScript developer, also
@@ -49,7 +46,7 @@ knowledge skills.
               <img
                 src={HeroImage}
                 alt="my profile"
-                className="rounded-3xl mx-auto w-2/3 md:w-full ml-5"
+                className="rounded-3xl mx-auto w-2/3"
               />
             </div>
           </div>
