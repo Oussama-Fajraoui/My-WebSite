@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Oussama Fajraoui.pdf",
+      href: "https://docdro.id/YoDH9Uf",
       style: "rounded-br-md",
       download: true,
     },
