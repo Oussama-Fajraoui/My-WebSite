@@ -46,7 +46,7 @@ knowledge skills.
               <img
                 src={HeroImage}
                 alt="my profile"
-                className="rounded-2xl mx-auto w-2/3 mt-40 outline-hidden"
+                className="rounded-2xl mx-auto w-2/3"
               />
             </div>
           </div>
