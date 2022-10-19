@@ -13,10 +13,10 @@ const Home = () => {
           <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div >
               <p className='text-white'>Hi, my name is :</p>
-              <h2 className="text-4xl sm:text-5xl font-bold text-white">
+              <h2 className="text-4xl sm:text-3xl font-bold text-white">
                 Oussama Fajraoui
               </h2>
-              <p className="text-gray-500 py-4 max-w-md">
+              <p className="text-gray-500 max-w-md">
               I’m a Full Stack JavaScript developer, also
 I'm a great communicator, dynamic and
 problem solving person. through my
@@ -46,7 +46,7 @@ knowledge skills.
               <img
                 src={HeroImage}
                 alt="my profile"
-                className="rounded-3xl mx-auto w-2/3"
+                className="rounded-2xl mx-auto w-2/3"
               />
             </div>
           </div>
