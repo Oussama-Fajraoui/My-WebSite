@@ -19,8 +19,12 @@ export default function Header() {
     },
     {
       _id: 3,
-      url:"https://www.facebook.com/oussama.fajraouigamer/",
+      url:"https://twitter.com/OFajraoui",
     },
+    {
+      _id:4,
+      url:"https://discordapp.com/users/957937549358284800"
+    }
   ]
   return (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
