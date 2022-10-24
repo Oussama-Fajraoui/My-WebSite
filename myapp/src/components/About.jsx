@@ -1,29 +1,59 @@
-import React from "react";
+import React from 'react'
+import { motion } from "framer-motion";
 
-const About = () => {
+
+
+function About() {
+  const pageInfo = [
+    {
+      profilePic:"https://cdn.sanity.io/images/10ba2g2h/production/6614f8ae6565e8b2b930633ab7cb76e48fd4793a-1623x1080.jpg?rect=356,46,990,1034&w=2000&fit=max&auto=format",
+      backgroundInformation:"I’m a Full Stack JavaScript developer, also I'm a great communicator, dynamic and problem solving person. Through my experience I'd worked on a lot of projects that made me technically confident, but I still aiming to learn more technologies and that's why I'm looking to develop my knowledge skills."
+    }
+  ]
   return (
-    <div
-      name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
-    >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
-          </p>
-        </div>
+    <motion.div 
+    initial={{ opacity: 0 }}
+    whileInView={{opacity: 1}}
+    transition={{duration: 1.5}}
+    className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7x1 px-10 justify-evenly mx-auto items-center'>
+    <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2x1'>
+        About
+    </h3>
+    {pageInfo.map((info) => (
 
-        <p className="text-xl mt-10">
-        I enjoy using new technologies in all my projects
-        because I consider it as a challenge for me and as an enhance for my technical skills, because in our domain we have always new updates and new technologies and as a web Developer i need to be up to date no matter how that can be difficult 
-        and that's what makes web development awesome, also i enjoy sharing all my Projects in my github account so people can give me feedbacks about them.       
+      <motion.img 
+      initial={{
+        x:-200,
+        opacity: 0
+      }}
+      transition={{
+        duration: 1.2
+    }}
+    whileInView={{
+        x:0,
+        opacity: 1
+      }}
+      viewport={{once:true}}
+      src={info.profilePic}
+      className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'
+      />
+      ))}
+    <div className='space-y-10 px-0 md:px-10'>
+        <h4 className='text-4x1 font-semibold'>
+            Here is a{" "} 
+        <span className='underline decoration-[#F7AB0A]'>little</span>{" "} 
+        background
+        </h4>
+        {pageInfo.map((info) => (
+
+          <p className='text-sm'>
+            {info.backgroundInformation}
         </p>
-
-        <br />
-
-      </div>
+          ))}
     </div>
-  );
-};
 
-export default About;
+    </motion.div>
+  )
+}
+
+export default About
