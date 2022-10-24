@@ -23,7 +23,7 @@ export default function Header() {
     },
     {
       _id:4,
-      url:"https://discordapp.com/users/957937549358284800"
+      url:"https://api.whatsapp.com/send?phone=26499227"
     }
   ]
   return (
