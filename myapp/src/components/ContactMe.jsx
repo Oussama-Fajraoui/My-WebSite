@@ -30,7 +30,7 @@ function ContactMe() {
 
                 <div className='flex items-center space-x-5 justify-center'>
                 <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                <p className='text-2x1'>10 Rue abou dhuib elhedli-ben arous tunis</p>
+                <p className='text-2x1'>Ben-Arous Tunis</p>
                 </div>
             </div>
             <form 
