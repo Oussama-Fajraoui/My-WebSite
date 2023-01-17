@@ -10,7 +10,7 @@ export default function Hero() {
     const pageInfo = [
         {
             heroImage:"https://cdn.sanity.io/images/10ba2g2h/production/ee5948f324f7dd016c8a00e56a58063b4f1f116c-441x345.jpg?w=2000&fit=max&auto=format",
-            role:"Full-Stack JavaScript Developer",
+            role:"Software Developer",
         }
     ]
 
