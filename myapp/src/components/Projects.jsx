@@ -1,7 +1,7 @@
 
       import React from 'react'
       import { motion } from "framer-motion";
-      import { Link } from 'react-router';
+      // import { Link } from 'react-router';
 
       function Projects() {
         const projects = [
@@ -9,7 +9,7 @@
             _id: 1,
             title: "Municipality-TN",
             image: "https://cdn.sanity.io/images/10ba2g2h/production/aa5591ca756b2d826819c7b774dc78a05376dcbf-480x290.jpg?rect=165,0,145,290",
-            summary:"A mobile application for municipality Tunis (dandan)",
+            summary:"Mobile application for municipality Tunis (dandan)",
             tech:"https://cdn.sanity.io/images/10ba2g2h/production/d62c5f60246264285ea935f5fbd6952b7f77d7cd-3000x2675.png?w=2000&fit=max&auto=format",
             tech1:"https://cdn.sanity.io/images/10ba2g2h/production/2d6776cd8ccaa53c6e548e03117671e1de4aa510-629x629.png",
             tech2:"https://cdn.sanity.io/images/10ba2g2h/production/47a5513caffa39b3afa206afcab7f5e388c37c29-250x250.png?w=2000&fit=max&auto=format",
@@ -20,7 +20,7 @@
             _id: 2,
             title: "Movie-World",
             image: "https://cdn.sanity.io/images/10ba2g2h/production/a03bb63929d714cd40950b5c72257ad70fdafe0e-480x320.jpg?w=2000&fit=max&auto=format",
-            summary:"A web application that allow the users to watch and download movies",
+            summary:"Web application that allow the users to watch and download movies",
             tech:"https://cdn.sanity.io/images/10ba2g2h/production/353fce1c76b3e6eb4dc59bf8c53dd4b8a9b3db38-250x250.png?rect=0,1,250,249&w=2000&fit=max&auto=format",
             tech1:"https://cdn.sanity.io/images/10ba2g2h/production/713e2e7dcf9a31a2bce6966da21aa3c75097bb7b-250x250.png?w=2000&fit=max&auto=format",
             tech2:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
@@ -31,7 +31,7 @@
             _id: 3,
             title: "Symphony-T",
             image: "https://cdn.sanity.io/images/10ba2g2h/production/fee101f8bda81506cd48be1cac088c35970c4971-480x320.jpg?w=2000&fit=max&auto=format",
-            summary:"A web application for teaching piano",
+            summary:"Web application for teaching piano",
             tech:"https://cdn.sanity.io/images/10ba2g2h/production/c82cfb29dfa05aa4c8f4d0038576b5b4b3f2c57d-1200x1040.png?w=2000&fit=max&auto=format",
             tech1:"https://cdn.sanity.io/images/10ba2g2h/production/68ee7f9d17c6dd25ea34aed795bc1025cc3a14e7-600x600.png?w=2000&fit=max&auto=format",
             tech2:"https://cdn.sanity.io/images/10ba2g2h/production/a2325fb8204eca5889fe0264858d092e910550cc-1100x400.png?w=2000&fit=max&auto=format",
@@ -42,7 +42,7 @@
             _id: 4,
             title: "Digital-Marketing",
             image: "https://cdn.sanity.io/images/10ba2g2h/production/d45dd23ff8041b2a94745b130532fe72e59db14c-480x320.jpg?w=2000&fit=max&auto=format",
-            summary:"A web application for selling and buying products",
+            summary:"Web application for selling and buying products",
             tech:"https://cdn.sanity.io/images/10ba2g2h/production/353fce1c76b3e6eb4dc59bf8c53dd4b8a9b3db38-250x250.png?rect=0,1,250,249&w=2000&fit=max&auto=format",
             tech1:"https://cdn.sanity.io/images/10ba2g2h/production/713e2e7dcf9a31a2bce6966da21aa3c75097bb7b-250x250.png?w=2000&fit=max&auto=format",
             tech2:"https://cdn.sanity.io/images/10ba2g2h/production/a2325fb8204eca5889fe0264858d092e910550cc-1100x400.png?w=2000&fit=max&auto=format",
@@ -75,7 +75,7 @@
               {projects.map((project, i)=> (
                    <div 
                    key={project._id}
-                   className='w-screen flex-shrink-0 snap-center flex flex-col space-y-2 items-center justify-center p-20 md:p-44 h-screen'>
+                   className='w-screen flex-shrink-0 snap-center flex flex-col space-y-20 items-center justify-center p-20 md:p-44 h-screen'>
                    <motion.img 
                    initial={{
                       y:-300,
@@ -86,7 +86,7 @@
                    viewport={{ once:true }}
                    src={project.image}
                    alt="" 
-                   className='xl:w-[150px] xl:h-[250px]'
+                   className='xl:w-[250px] xl:h-[450px]'
                    />
                    <div className='space-y-10 px-0 md:px-10 max-w-6x1'>
                     <a href={project.link} target="_blank" rel="noreferrer">

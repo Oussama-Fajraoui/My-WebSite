@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 
-const directionLeft = true || false
+// const directionLeft = true || false
 
 
 function Skill({directionLeft}) {
@@ -49,10 +49,30 @@ function Skill({directionLeft}) {
         {
             _id:11,
             image:"https://cdn.sanity.io/images/10ba2g2h/production/b347dcdd51a47279e608fce75f980687934a6248-600x600.png?w=2000&fit=max&auto=format",
-        }
+        },
+        {
+            _id:12,
+            image:"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png",
+        },
+        {
+            _id:13,
+            image:"https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
+        },
+        {
+            _id:14,
+            image:"https://seeklogo.com/images/S/sass-logo-E41E7734A8-seeklogo.com.png",
+        },
+        {
+            _id:15,
+            image:"https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        },
+        {
+            _id:16,
+            image:"https://mir-s3-cdn-cf.behance.net/project_modules/fs/fecece74182713.5c254609b1588.png",
+        },
     ]
   return (
-    <div className='group relative flex cursor-pointer '>
+    <div className='group relative flex cursor-pointer'>
         <div className="items-center justify-center grid grid-cols-3 sm:grid-cols-4 gap-8">
         {skill.map((info) => (
             

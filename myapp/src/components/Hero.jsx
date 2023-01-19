@@ -1,7 +1,7 @@
 import React from 'react'
 import {useTypewriter, Cursor} from "react-simple-typewriter"
 import BackgroundCircles from './BackgroundCircles';
-import AnimatedCursor from "react-animated-cursor"
+// import AnimatedCursor from "react-animated-cursor"
 
 
 

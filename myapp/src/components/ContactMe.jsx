@@ -7,28 +7,28 @@ function ContactMe() {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7x1 px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2x1'>
+        <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2x1'>
         Contact
         </h3>
 
-        <div className='flex flex-col space-y-10'>
+        <div className='flex flex-col space-y-8'>
             <h4 className='text-4x1 font-semibold text-center'>
                 {" "}
                 <span className='decoration-[#F7AB0A]/50 underline'></span>
             </h4>
-            <div className='space-y-10'>
+            <div className='space-y-8'>
 
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center space-x-4 justify-center'>
                 <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
                 <p className='text-2x1'>+216 26 499 227</p>
                 </div>
 
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center space-x-4 justify-center'>
                 <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                 <p className='text-2x1'>oussama.fajraoui1@gmail.com</p>
                 </div>
 
-                <div className='flex items-center space-x-5 justify-center'>
+                <div className='flex items-center space-x-4 justify-center'>
                 <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                 <p className='text-2x1'>Ben-Arous Tunis</p>
                 </div>
@@ -36,8 +36,8 @@ function ContactMe() {
             <form 
             action="https://getform.io/f/57e351be-46b1-4531-9ea8-24655fec47bd"
             method='POST'
-             className='flex flex-col space-y-2 w-fit mx-auto'>
-                <div className='flex space-x-2'>
+             className='flex flex-col space-y-1 w-fit mx-auto'>
+                <div className='flex space-x-1'>
                     <input 
                     type="text"
                     name="name"
