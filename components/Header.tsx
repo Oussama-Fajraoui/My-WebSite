@@ -79,7 +79,7 @@ const Header = (props: Props) => {
         className={`cursor-pointer w-8 h-5 md:w-16 md:h-10 flex items-center bg-gray-300 rounded-full p-1 ${
           toggle ? "bg-red-500 justify-end" : "justify-start"
         }`}
-        onClick={() => setTheme(theme === "light" ? "dark" : "dark")}>
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
         <motion.div
           layout
           className="bg-white w-4 h-4 md:w-8 md:h-8 rounded-full shadow-md"></motion.div>
