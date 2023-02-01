@@ -72,8 +72,8 @@ export const skillsData = [
     img: "https://camo.githubusercontent.com/5fa137d222dde7b69acd22c6572a065ce3656e6ffa1f5e88c1b5c7a935af3cc6/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7673636f64652f7673636f64652d6f726967696e616c2e737667",
   },
   {
-    name: "Nest",
-    img: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/fecece74182713.5c254609b1588.png",
+    name: "Vue.js",
+    img: "https://cdn.sanity.io/images/10ba2g2h/production/c82cfb29dfa05aa4c8f4d0038576b5b4b3f2c57d-1200x1040.png?w=2000&fit=max&auto=format",
   },
   {
     name: "PostgrSQL",
