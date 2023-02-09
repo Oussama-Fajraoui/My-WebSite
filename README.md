@@ -19,7 +19,7 @@ My portfolio site that I made using Next.js, TypeScript and TailwindCSS.
 
 ## The challenge
 
-To create an portfolio site with ReactJS, NextJS, TypeScript and TailwindCSS
+To create an portfolio site with NextJS, TypeScript and TailwindCSS
 
 ## Project Skeleton
 
@@ -66,13 +66,13 @@ To create an portfolio site with ReactJS, NextJS, TypeScript and TailwindCSS
 ## Screenshot
 
 <p align="center">
-<a href="https://murathudavendigar.vercel.app/"><img src="https://media.licdn.com/dms/image/C4D22AQG3wVzoU-Lvzg/feedshare-shrink_800/0/1674569569367?e=1677715200&v=beta&t=ROSec6PV0LGYVYNMPXWkZ5BUQlZY6o9lapMSYquenls" alt="screenshot"></a>
+<a href="https://oussama-fajraoui.vercel.app/"><img src="https://i.ibb.co/1JX7RnJ/Screenshot-2023-02-09-133347.png" alt="screenshot"></a>
 </p>
 
 ## Links
 
 <hr>
-<b>Check The Live Website ➡️</b> <a href="https://murathudavendigar.vercel.app/">Live Website</a>
+<b>Check The Live Website ➡️</b> <a href="https://oussama-fajraoui.vercel.app/">Live Website</a>
 <hr>
 
 ### Built with
@@ -105,16 +105,12 @@ npm install
 
 ## Author
 
-- Author - [Murat Hüdavendigâr]
+- Author - [Oussama Fajraoui]
 
 ## Contact
 
 <p align="center">
-<a href="https://codepen.io/m_hudavendigar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="m_hudavendigar" height="30" width="40" /></a>
-<a href="https://twitter.com/murathoncu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="murathoncu" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/murathudavendigaroncu/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="murat-hüdavendigâr-öncü-232749246" height="30" width="40" /></a>
-<a href="https://instagram.com/m_hdavendigr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="m_hdavendigr" height="30" width="40" /></a>
-  <a href="https://medium.com/@murathoncu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@murathoncu" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/oussama-fajraoui%E2%9C%94-59436b22b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="oussama-farjaoui" height="30" width="40" /></a>
 </p>
 
 ## How to use
