@@ -2,11 +2,11 @@ import { Projects } from "@/types";
 
 export const projectsData: Projects[] = [
   {
-    img: "https://media.licdn.com/dms/image/C4D22AQHF1VuK2OX-5Q/feedshare-shrink_2048_1536/0/1673616568442?e=1676505600&v=beta&t=2mAnfloe9vJEzTHrdft3QtqWBIjGBNb_BjdKwCpfSec",
+    img: "https://i.ibb.co/qYpP1Q5/Screenshot-2023-03-08-111151.png",
     name: "NextJS Netflix App",
     description:
       "NextJS Netflix App is a responsive web application where you can watch the trailer of the movie you want to see the information of after registering and logging in and you can create a watch list for yourself by pressing the + button.",
-    url: "https://netflix-nextjs-fire-base.vercel.app/",
+    url: "https://netflix-nextjs-fire-base-ouzp4j5av-oussama-fajraoui.vercel.app/login",
     language: "Next.JS",
     github: "https://github.com/Oussama-Fajraoui/Netflix-Nextjs-FireBase",
   },
